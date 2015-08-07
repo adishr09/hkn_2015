@@ -1,0 +1,140 @@
+.body{
+
+        margin-bottom: 100px;
+}
+.dropdown-submenu{
+    position:relative;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+ 
+.dropdown-submenu > .dropdown-menu
+{
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+ 
+.dropdown-submenu:hover > .dropdown-menu{
+    display:block;
+}
+ 
+.dropdown-submenu > a:after{
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+ 
+.dropdown-submenu:hover > a:after{
+    border-left-color:#ffffff;
+}
+ 
+.dropdown-submenu .pull-left{
+    float:none;
+}
+ 
+.dropdown-submenu.pull-left > .dropdown-menu{
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+.page-header{
+    margin-top: 0;
+}
+.pannel-body{
+    padding-top: 0;
+}
+
+.featuredImg {
+    padding-bottom: 15px;
+}
+
+
+#vertical-ticker{
+	height:250px;
+	overflow:hidden;
+	margin:0; padding:0;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0, .4);
+
+}
+
+	#vertical-ticker li{
+		padding:35px 20px;
+		display:block;
+		background:#fff;
+		color:#333;
+		border-bottom:1px solid #ddd;
+		text-align:center;
+		font-size:15px;
+		font-weight:bold;
+		font-family: Helvetica Neue, times, serif;
+	}
+    
+.box{
+		width:32%;
+		height:110%;
+		float:left;
+		border:2px solid black;
+		margin-left: 3px;
+		border-radius: 10px;
+        font-size: 1.1vm;
+		padding:7px;
+        
+}
+.prez{
+    border:2px solid black;
+		margin: 2%;
+		border-radius: 10px;
+    
+}
+iframe, object, embed {
+        max-width: 100%;
+}
+
+ul li {
+    list-style-type: none;
+   
+  
+}
+
+
+
+.footer{
+	z-index:1;
+	width:100%;
+	color:#E1E1E1;
+
+	}
+
+.f{
+	width:auto;
+	text-align: left;
+	float:left;
+	text-shadow:2px 3px 10px black;
+   	font-size:1vw;
+
+	display:inline-block;
+ 
+}
+.f a
+{
+		color:#fff;
+
+	}
